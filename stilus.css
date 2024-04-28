@@ -1,0 +1,127 @@
+.kartyak {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 230, 217);
+    box-shadow: 0 4px 8px black;
+}
+
+.kartya {
+    width: 400px;
+    margin: 10px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 4px 8px black;
+    height: 600px;
+}
+
+h2,
+h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+body {
+    font-family: monospace;
+}
+
+.kartya-kep {
+    width: 100%;
+}
+
+#gomb {
+    border-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 4px 8px black;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.a {
+    background-color: rgb(248, 223, 0);
+    width: 100%;
+    box-shadow: 0 4px 8px black;
+    height: 130px;
+}
+
+.b {
+    height: 69px;
+}
+
+.c {
+    background-color: rgb(248, 223, 0);
+}
+
+#a {
+    width: 11%;
+}
+
+#b {
+    width: 25%;
+}
+
+#c {
+    width: 25%;
+}
+
+#d {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.d {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background: rgb(248, 223, 0);
+}
+
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 200px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li:hover {
+    background: rgb(177, 160, 11);
+}
+
+ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#e {
+    float: left;
+    width: 70%;
+    margin-top: 20px;
+    background-color: rgb(248, 223, 0);
+    margin-left: 150px;
+}
+
+#f {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: white;
+}
+
+#g {
+    float: right;
+}
